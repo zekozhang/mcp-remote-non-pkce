@@ -21,3 +21,4 @@ coverage/
 *.tgz
 *.tar.gz
 .pnpm-debug.log
+.npmrc
