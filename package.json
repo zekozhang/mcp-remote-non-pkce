@@ -1,16 +1,21 @@
 {
-  "name": "mcp-remote",
-  "version": "0.1.29",
-  "description": "Remote proxy for Model Context Protocol, allowing local-only clients to connect to remote servers using oAuth",
+  "name": "mcp-remote-non-pkce",
+  "version": "0.1.0",
+  "description": "Remote proxy for Model Context Protocol with Non-PKCE OAuth support, allowing local-only clients to connect to remote servers using standard OAuth 2.0 authorization code flow",
   "keywords": [
     "mcp",
     "stdio",
     "sse",
     "remote",
-    "oauth"
+    "oauth",
+    "non-pkce",
+    "oauth2"
   ],
-  "author": "Glen Maddern <glen@glenmaddern.com>",
-  "repository": "https://github.com/geelen/mcp-remote",
+  "author": "Zeko Zhang <zeko075@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zekozhang/mcp-remote-non-pkce"
+  },
   "type": "module",
   "files": [
     "dist",
