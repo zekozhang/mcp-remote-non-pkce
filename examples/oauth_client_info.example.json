@@ -1,0 +1,18 @@
+{
+  "client_id": "your-client-id-here",
+  "client_secret": "your-client-secret-here",
+  "redirect_uris": [
+    "http://localhost:3334/oauth/callback"
+  ],
+  "token_endpoint_auth_method": "client_secret_basic",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "client_name": "MCP Remote Client",
+  "client_uri": "https://github.com/geelen/mcp-remote"
+}
+
